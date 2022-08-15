@@ -7,6 +7,12 @@
 
 3. Install a few pip packages:
 - `pip3 install selenium webdriver-manager`
+- `pip3 install python-dotenv`
+
+4. Setup environmental variables
+From within the using-python directory
+- `cp .env.example .env`
+- Modify `.env` to add valid credentials
 
 # How to run the `starter-test.py`
 - Run the following command after navigating into the repo via Terminal
@@ -15,5 +21,5 @@
 # What does the `starter-test.py` do?
 - Starts up Selenium webdriver
 - Loads a salesforce dashboard page
-- Enters Nahid's test user credentials
-- Get's stuck at 2FA 
+- Enters credentials from `.env`
+- Gets stuck at 2FA 
