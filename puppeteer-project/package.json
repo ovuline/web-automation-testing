@@ -10,9 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "18": "^0.0.0",
+    "axios": "^1.7.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
-    "puppeteer": "^22.8.1"
+    "puppeteer": "^22.8.1",
+    "ws": "^8.18.0"
   },
   "repository": {
     "type": "git",
